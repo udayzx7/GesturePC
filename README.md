@@ -59,3 +59,37 @@ You will need Python installed on your system along with a working webcam. It is
    ```bash
    git clone [https://github.com/udayzx7/GesturePC.git](https://github.com/udayzx7/GesturePC.git)
    cd GesturePC
+Create and activate a virtual environment (Recommended):
+
+Bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+Install the required dependencies:
+
+Bash
+pip install -r requirements.txt
+Usage
+Run the main Python script to launch the application:
+
+Bash
+python virtual_mouse_cvzone.py
+Ensure you are in a well-lit environment for optimal hand tracking.
+
+The application window will open. Perform the gestures listed in the guide above to control your PC.
+
+To exit the application, press the ESC or q key on your physical keyboard.
+
+💡 Future Scope
+[ ] Add volume control via hand distance measurement.
+
+[ ] Implement customizable gesture-to-macro mapping.
+
+[ ] Improve background noise filtering for low-light environments.
+
+👨‍💻 Author
+Uday Garasiya * GitHub: @udayzx7
+
+If you found this project interesting or helpful, consider giving it a ⭐!
